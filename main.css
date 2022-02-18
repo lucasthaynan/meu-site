@@ -45,12 +45,19 @@ section.primeira-tela {
     max-width: var(--main-column-max);    
 }
 
+.icones-redes {
+    margin-top: -250px;
+    
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
     flex-direction: column;
     line-height: 5.5rem;
     max-height: 15rem;
+    position: fixed;
+    
 }
 
 .social-icons a {
@@ -79,8 +86,9 @@ section.primeira-tela {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-left: 20px;
-    max-width: 35rem;
+    margin-left: 200px;
+    max-width: 35rem;    
+    
 }
 
 h1 {
