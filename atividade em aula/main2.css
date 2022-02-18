@@ -1,0 +1,75 @@
+strong {
+    background-color: hotpink;
+  }
+  
+  li {
+      border: 1px solid;
+      margin-top: 20px;
+      
+  }
+  
+  
+  
+  /* estilo geral da página */
+  
+  
+  div  {
+    border: 2px dotted green;
+    margin-bottom: 1rem;
+  }
+  
+  section, ul, div>p {
+    margin: 20px;
+    border: 2px dashed brown;
+  }
+  
+  div, ul, section, svg {
+    position: relative;
+  }
+  
+  div::before,
+  ul::before,
+  section::before,
+  svg::before {
+    position: absolute;
+    display: inline-block;
+    transform: translateX(-100%);
+    background-color: green;
+    color: white;
+    padding: .25em;
+    top: 0;
+    left: -2px;
+  
+  }
+  
+  div::before  {
+    content:  'div';
+  }
+  
+  div.chart::before  {
+    content:  'div.chart';
+  }
+  
+  section::before  {
+    content:  'section';
+    background-color: brown;
+  }
+  
+  ul::before  {
+    content:  'ul';
+    background-color: brown;
+  }
+  
+  svg::before {
+    content: 'svg';
+    background-color: 'black';
+  }
+  
+  body {
+    padding: 5rem;
+  }
+  
+  * {
+    box-sizing: border-box;
+    
+  }
