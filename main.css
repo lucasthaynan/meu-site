@@ -125,7 +125,7 @@ h2 {
 }
 
 
-section.segunda-tela {    
+section.segunda-tela, section.terceira-tela {    
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -133,6 +133,25 @@ section.segunda-tela {
     align-items: center;
     max-width: var(--article-column-max);
 }
+
+
+div.imagem-projeto {
+    width: 100px;    
+}
+
+div.titulo-projeto {
+    margin-left: 200px;
+}
+
+h4 {
+    margin-left: 50px;    
+    font-family: 'Roboto', normal;
+    font-weight: 600;
+    color: var(--color-font-light-green); 
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
 
 img {
     max-width: 280px;
