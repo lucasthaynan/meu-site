@@ -9,7 +9,7 @@
     --color-font-light-green: #5AE5C7;
     --color-font-light-blue: #CCD6F6;
     --main-column-max: 1280px;
-    --article-column-max: 60rem;
+    --article-column-max: 820px;
 }
 
 ::selection {
